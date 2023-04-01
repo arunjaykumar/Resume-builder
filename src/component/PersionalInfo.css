@@ -1,0 +1,84 @@
+
+.body{
+    /* background-color: red; */
+    width:600px;
+    margin-right: 100px;
+    margin-top: 40px;
+    padding: 5px;
+    /* box-shadow: 10px 10px; */
+    border: 2px solid rgb(196, 190, 190);
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 5px;
+      /* background-color: red; */
+    
+    }
+    
+    form h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    form label {
+      display: flex;
+      margin-bottom: 0.5rem;
+      justify-content: end;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+    
+    form input[type="file"] {
+      margin-bottom: 1rem;
+    }
+    
+    form label button[type="submit"],[type="next"] {
+      /* background-color: blueviolet; */
+      display: flex;
+      color: black;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 2rem;
+      margin: 10px;
+      border-radius: 0.25rem;
+      /* border: 1px slid black; */
+      font-size: 1rem;
+      cursor: pointer;
+      ;
+      
+    }
+    
+    button[type="submit"]:hover ,[type="next"]:hover {
+      background-color: #0069d9;
+    }
+    
+    form img {
+      max-width: 100%;
+      /* margin-bottom: 5rem; */
+    }
+    .info{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .column{
+      /* display: flex; */
+      flex-direction: column;
+    }
+    
+    
+    

@@ -1,0 +1,55 @@
+
+.edu-container{
+    /* background-color: red; */
+    width:600px;
+    margin-right: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    /* box-shadow: 10px 10px; */
+    border: 2px solid rgb(196, 190, 190);
+    }
+.box-container{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+}    
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction:column;
+    /* gap: 0.5rem; */
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: flex;
+    justify-content: start;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"] {
+    display: flex;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #0077cc;
+    box-shadow: 0 0 0 2px rgba(0, 119, 204, 0.2);
+  }
+  

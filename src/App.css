@@ -1,0 +1,9 @@
+/* .cont{
+    display: flex;
+    box-sizing: border-box;
+} */
+
+.ctnr{
+    display: flex;
+    /* background-color: red; */
+}
